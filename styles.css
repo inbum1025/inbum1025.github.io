@@ -70,6 +70,7 @@ a:hover {
   width: 132px;
   height: 132px;
   object-fit: cover;
+  object-position: center 24%;
   border: 1px solid var(--line);
   border-radius: 50%;
   background: #fff;
