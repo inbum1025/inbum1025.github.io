@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Inbum Heo CV - Document Intelligence, OCR, Document Layout Analysis, and Vision-Language Models.">
+    <meta name="keywords" content="Inbum Heo, CV, Document Intelligence, OCR, Document Layout Analysis, Vision-Language Models">
+    <title>Inbum Heo CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <div class="container narrow centered">
+          <p class="venue">Curriculum Vitae</p>
+          <h1>Inbum Heo CV</h1>
+          <p class="subtitle">Document Intelligence · Optical Character Recognition · Vision-Language Models</p>
+          <p class="affiliation">Chungnam National University · Computer Science &amp; Engineering · Daejeon, Korea</p>
+
+          <div class="link-row" aria-label="Primary links">
+            <a class="pill dark" href="mailto:inbum10222@gmail.com">Email</a>
+            <a class="pill dark" href="https://github.com/inbum1025" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="pill dark" href="#publications">Publications</a>
+            <a class="pill dark" href="#projects">Projects</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="teaser">
+        <div class="container">
+          <div class="profile-figure">
+            <img src="assets/images/inbum.jpeg" alt="Portrait of Inbum Heo">
+            <div class="research-map" aria-label="Research focus map">
+              <div class="map-node">Documents</div>
+              <div class="map-line"></div>
+              <div class="map-node">OCR</div>
+              <div class="map-line"></div>
+              <div class="map-node">Layout</div>
+              <div class="map-line"></div>
+              <div class="map-node">VLM Evaluation</div>
+            </div>
+          </div>
+          <p class="caption">
+            Research focus: building datasets, benchmarks, and evaluation pipelines for reliable document understanding systems.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container content">
+          <h2>TL;DR</h2>
+          <p>
+            I am a master's student at Chungnam National University working on document intelligence,
+            OCR post-correction, document layout analysis, and multimodal model evaluation. My recent work
+            includes layout error detection benchmarks, Korean OCR correction, visually-rich document
+            understanding, and zero-data-leakage evaluation of LLMs on the 2026 Korean CSAT mathematics exam.
+          </p>
+        </div>
+      </section>
+
+      <section id="research" class="section soft">
+        <div class="container content">
+          <h2>Research Interests</h2>
+          <div class="columns three">
+            <article>
+              <h3>Document Intelligence</h3>
+              <p>Data construction, benchmark design, and evaluation workflows for real-world document AI.</p>
+            </article>
+            <article>
+              <h3>OCR &amp; Layout Analysis</h3>
+              <p>OCR post-correction, mathematical expression detection, layout generation, and layout error detection.</p>
+            </article>
+            <article>
+              <h3>Vision-Language Models</h3>
+              <p>Analysis of hallucination, visual perception, and multimodal reasoning in VLM-based systems.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="container content">
+          <h2>Publications</h2>
+          <p class="summary">14 publications: 2 international conferences, 7 domestic conferences, 1 journal article, and 4 manuscripts under review.</p>
+
+          <h3>International Conferences</h3>
+          <div class="paper-list">
+            <article class="paper">
+              <span class="tag">BigComp 2026</span>
+              <h4>LED: A Benchmark for Evaluating Layout Error Detection in Document Analysis</h4>
+              <p><strong>Inbum Heo*</strong>, Taewook Hwang, Jeesu Jung, Sangkeun Jung</p>
+            </article>
+            <article class="paper">
+              <span class="tag">ACL 2026 Findings</span>
+              <h4>Perceptual Hallucination in Vision-Language Models: Definition, Analysis and Verification</h4>
+              <p>Taewook Hwang*, <strong>Inbum Heo*</strong>, Sung Jun Lee, Sangkeun Jung</p>
+            </article>
+          </div>
+
+          <h3>Journal Article</h3>
+          <div class="paper-list">
+            <article class="paper featured">
+              <span class="tag">Applied Artificial Intelligence, 2026</span>
+              <h4>Evaluating Large Language Models on the 2026 Korean CSAT Mathematics Exam: Measuring Mathematical Ability in a Zero-Data-Leakage Setting</h4>
+              <p>Goun Pyeon*, <strong>Inbum Heo*</strong>, Jeesu Jung, Taewook Hwang, Sangkeun Jung</p>
+            </article>
+          </div>
+
+          <h3>Domestic Conferences</h3>
+          <div class="domestic-list">
+            <article><span>KCC 2026</span> 한글문서(HWP) 인식 데이터 구축에서 사람과 에이전트의 협업 구조 평가</article>
+            <article><span>KSC 2025</span> LLM의 수능 수학 문제 풀이를 위한 시각 인지 자동화 파이프라인 구축 및 인간의 사고 과정 비교 분석</article>
+            <article><span>HCLT 2025</span> LED: 문서 구조 이해를 위한 레이아웃 오류 검출 벤치마크</article>
+            <article><span>KCC 2025</span> DocLayGen: 다중 도메인 문서 레이아웃 자동 생성 프레임워크</article>
+            <article><span>KSC 2024</span> 수식 검출 태스크에 대한 기존 OCR 모델의 한계점 분석</article>
+            <article><span>HCLT 2024</span> 한국어 광학 문자 인식 후보정 데이터 세트 구축 및 KoBART 기반 후보정</article>
+            <article><span>KSC 2023</span> Mixing Augmentation과 UNet을 활용한 상표이미지 군집화 및 거리기반 유사성 측정</article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section soft">
+        <div class="container content">
+          <h2>Projects</h2>
+          <div class="columns three">
+            <article>
+              <h3>2026 Korean CSAT Math-Test LLM Evaluation Leaderboard</h3>
+              <p>Evaluating LLMs on the 2026 Korean CSAT mathematics exam in a zero-data-leakage setting.</p>
+              <a href="https://isoft.cnu.ac.kr/csat2026/" target="_blank" rel="noreferrer">Project page</a>
+            </article>
+            <article>
+              <h3>sia_internship</h3>
+              <p>SNR-based quality assessment and image dehazing algorithms for satellite imagery.</p>
+              <a href="https://github.com/inbum1025/sia_internship.git" target="_blank" rel="noreferrer">GitHub repository</a>
+            </article>
+            <article>
+              <h3>Astronomical Image &amp; Spectrum Processing</h3>
+              <p>Galaxy image generation/classification using AutoEncoder and spectrum denoising using UNet.</p>
+              <span>2023 - 2024</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container content">
+          <h2>Education &amp; Experience</h2>
+          <div class="timeline">
+            <article>
+              <time>Mar 2025 - Present</time>
+              <div>
+                <h3>M.S. in Computer Science &amp; Engineering</h3>
+                <p>Chungnam National University</p>
+              </div>
+            </article>
+            <article>
+              <time>Aug 2025 - Sep 2025</time>
+              <div>
+                <h3>Lilac Inc.</h3>
+                <p>Analyzed bias in ADMET prediction models under imbalanced data conditions.</p>
+              </div>
+            </article>
+            <article>
+              <time>Aug 2024 - Oct 2024</time>
+              <div>
+                <h3>Software Education Mentoring</h3>
+                <p>Taught Python programming and basic machine learning at Daejeon Girls' High School.</p>
+              </div>
+            </article>
+            <article>
+              <time>Jan 2023 - Mar 2023</time>
+              <div>
+                <h3>SIA (SI Analytics), Data Manager</h3>
+                <p>Developed satellite image SNR comparison algorithms and researched image dehazing.</p>
+              </div>
+            </article>
+            <article>
+              <time>Mar 2019 - 2024</time>
+              <div>
+                <h3>B.S. in Astronomy and Space Science</h3>
+                <p>Chungnam National University</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="awards" class="section soft">
+        <div class="container content">
+          <h2>Competition &amp; Awards</h2>
+          <div class="awards">
+            <article><time>2026.01</time><strong>우수발표논문상</strong><span>KSC 2025</span></article>
+            <article><time>2025.08 - 2025.09</time><strong>5위</strong><span>Samsung AI Challenge: Visually-rich Document Understanding</span></article>
+            <article><time>2023.08 - 2023.10</time><strong>14위</strong><span>Samsung AI Challenge: Image Quality Assessment</span></article>
+            <article><time>2022.09 - 2022.10</time><strong>우수상</strong><span>천안시 빅데이터 기반 시각화 아이디어 공모전</span></article>
+            <article><time>2022.09</time><strong>대상(1위)</strong><span>충남대학교 Python 기반 소셜 데이터분석 활용 캠프</span></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <p>Inbum Heo CV</p>
+        <a href="mailto:inbum10222@gmail.com">inbum10222@gmail.com</a>
+      </div>
+    </footer>
+  </body>
+</html>
