@@ -15,43 +15,67 @@
     <main>
       <section class="hero">
         <div class="container narrow centered">
-          <p class="venue">Curriculum Vitae</p>
-          <h1>Inbum Heo CV</h1>
-          <p class="subtitle">Document Intelligence · Optical Character Recognition · Vision-Language Models</p>
-          <p class="affiliation">Chungnam National University · Computer Science &amp; Engineering · Daejeon, Korea</p>
+          <div class="intro-block">
+            <img class="hero-photo" src="assets/images/inbum.jpeg" alt="Portrait of Inbum Heo">
+            <div>
+              <h1>Inbum Heo</h1>
+              <p class="subtitle">Document Intelligence Researcher</p>
+              <p class="affiliation">Chungnam National University · Computer Science &amp; Engineering</p>
+              <div class="contact-line" aria-label="Contact links">
+                <a href="mailto:inbum10222@gmail.com">inbum10222@gmail.com</a>
+                <a href="https://www.linkedin.com/in/bum1025/" target="_blank" rel="noreferrer">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="research-focus" aria-label="Research focus">
+            <span class="focus-label">Research Interests</span>
+            <div class="keyword-row">
+              <span>Document Intelligence</span>
+              <span>OCR</span>
+              <span>Document Layout Analysis</span>
+              <span>Vision-Language Models</span>
+            </div>
+          </div>
 
           <div class="link-row" aria-label="Primary links">
-            <a class="pill dark" href="mailto:inbum10222@gmail.com">Email</a>
-            <a class="pill dark" href="https://github.com/inbum1025" target="_blank" rel="noreferrer">GitHub</a>
             <a class="pill dark" href="#publications">Publications</a>
             <a class="pill dark" href="#projects">Projects</a>
+            <a class="pill dark" href="#experience">Experience</a>
+            <a class="pill dark" href="#awards">Awards</a>
           </div>
         </div>
       </section>
 
       <section class="teaser">
         <div class="container">
-          <div class="profile-figure">
-            <img src="assets/images/inbum.jpeg" alt="Portrait of Inbum Heo">
-            <div class="research-map" aria-label="Research focus map">
-              <div class="map-node">Documents</div>
-              <div class="map-line"></div>
-              <div class="map-node">OCR</div>
-              <div class="map-line"></div>
-              <div class="map-node">Layout</div>
-              <div class="map-line"></div>
-              <div class="map-node">VLM Evaluation</div>
+          <div class="impact-strip" aria-label="CV highlights">
+            <div>
+              <strong>14</strong>
+              <span>Publications</span>
+            </div>
+            <div>
+              <strong>2</strong>
+              <span>International Conferences</span>
+            </div>
+            <div>
+              <strong>1</strong>
+              <span>Journal Article</span>
+            </div>
+            <div>
+              <strong>5+</strong>
+              <span>Awards &amp; Competitions</span>
             </div>
           </div>
           <p class="caption">
-            Research focus: building datasets, benchmarks, and evaluation pipelines for reliable document understanding systems.
+            Building datasets, benchmarks, and evaluation pipelines for reliable document understanding systems.
           </p>
         </div>
       </section>
 
       <section class="section">
         <div class="container content">
-          <h2>TL;DR</h2>
+          <h2>Profile</h2>
           <p>
             I am a master's student at Chungnam National University working on document intelligence,
             OCR post-correction, document layout analysis, and multimodal model evaluation. My recent work
@@ -111,13 +135,13 @@
 
           <h3>Domestic Conferences</h3>
           <div class="domestic-list">
-            <article><span>KCC 2026</span> 한글문서(HWP) 인식 데이터 구축에서 사람과 에이전트의 협업 구조 평가</article>
-            <article><span>KSC 2025</span> LLM의 수능 수학 문제 풀이를 위한 시각 인지 자동화 파이프라인 구축 및 인간의 사고 과정 비교 분석</article>
-            <article><span>HCLT 2025</span> LED: 문서 구조 이해를 위한 레이아웃 오류 검출 벤치마크</article>
-            <article><span>KCC 2025</span> DocLayGen: 다중 도메인 문서 레이아웃 자동 생성 프레임워크</article>
-            <article><span>KSC 2024</span> 수식 검출 태스크에 대한 기존 OCR 모델의 한계점 분석</article>
-            <article><span>HCLT 2024</span> 한국어 광학 문자 인식 후보정 데이터 세트 구축 및 KoBART 기반 후보정</article>
-            <article><span>KSC 2023</span> Mixing Augmentation과 UNet을 활용한 상표이미지 군집화 및 거리기반 유사성 측정</article>
+            <article><span>KCC 2026</span> Evaluating Human-Agent Collaboration for Constructing HWP Document Recognition Data</article>
+            <article><span>KSC 2025</span> Automated Visual Perception Pipeline for LLM-Based Korean CSAT Mathematics Solving and Comparative Analysis with Human Reasoning</article>
+            <article><span>HCLT 2025</span> LED: A Layout Error Detection Benchmark for Document Structure Understanding</article>
+            <article><span>KCC 2025</span> DocLayGen: An Automated Multi-Domain Document Layout Generation Framework</article>
+            <article><span>KSC 2024</span> Analyzing the Limitations of Existing OCR Models for Mathematical Expression Detection</article>
+            <article><span>HCLT 2024</span> Korean OCR Post-Correction Dataset Construction and KoBART-Based Post-Correction</article>
+            <article><span>KSC 2023</span> Trademark Image Clustering and Distance-Based Similarity Measurement Using Mixing Augmentation and UNet</article>
           </div>
         </div>
       </section>
@@ -145,7 +169,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section id="experience" class="section">
         <div class="container content">
           <h2>Education &amp; Experience</h2>
           <div class="timeline">
@@ -192,11 +216,10 @@
         <div class="container content">
           <h2>Competition &amp; Awards</h2>
           <div class="awards">
-            <article><time>2026.01</time><strong>우수발표논문상</strong><span>KSC 2025</span></article>
-            <article><time>2025.08 - 2025.09</time><strong>5위</strong><span>Samsung AI Challenge: Visually-rich Document Understanding</span></article>
-            <article><time>2023.08 - 2023.10</time><strong>14위</strong><span>Samsung AI Challenge: Image Quality Assessment</span></article>
-            <article><time>2022.09 - 2022.10</time><strong>우수상</strong><span>천안시 빅데이터 기반 시각화 아이디어 공모전</span></article>
-            <article><time>2022.09</time><strong>대상(1위)</strong><span>충남대학교 Python 기반 소셜 데이터분석 활용 캠프</span></article>
+            <article><time>Jan 2026</time><strong>Outstanding Paper Presentation Award</strong><span>KSC 2025</span></article>
+            <article><time>Aug 2025 - Sep 2025</time><strong>5th Place</strong><span>Samsung AI Challenge: Visually-rich Document Understanding</span></article>
+            <article><time>Sep 2022 - Oct 2022</time><strong>Excellence Award</strong><span>Cheonan Big Data-Based Visualization Idea Competition</span></article>
+            <article><time>Sep 2022</time><strong>Grand Prize, 1st Place</strong><span>Chungnam National University Python-Based Social Data Analysis Camp</span></article>
           </div>
         </div>
       </section>
@@ -205,7 +228,10 @@
     <footer>
       <div class="container footer-inner">
         <p>Inbum Heo CV</p>
-        <a href="mailto:inbum10222@gmail.com">inbum10222@gmail.com</a>
+        <div class="footer-links">
+          <a href="mailto:inbum10222@gmail.com">inbum10222@gmail.com</a>
+          <a href="https://www.linkedin.com/in/bum1025/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
       </div>
     </footer>
   </body>
