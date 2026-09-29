@@ -221,12 +221,27 @@ main {
 }
 
 .section-title h2 {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 8px;
   position: sticky;
   top: 18px;
   margin: 0;
   font-size: 1.08rem;
   line-height: 1.25;
   font-weight: 760;
+}
+
+.section-icon {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.9;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .page-title {
