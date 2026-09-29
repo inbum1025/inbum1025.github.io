@@ -157,10 +157,15 @@ main {
 }
 
 .research-chips {
+  display: grid;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.research-chip-row {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 6px;
 }
 
 .research-chips span {
