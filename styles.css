@@ -312,6 +312,14 @@ time {
   list-style: none;
 }
 
+.news-note {
+  display: block;
+  margin-top: 2px;
+  color: var(--faint);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
 .news-list li,
 .compact-list article {
   display: grid;
@@ -357,6 +365,12 @@ a.story-card:hover {
   border-radius: 8px;
 }
 
+.paper-page-thumb {
+  height: 180px;
+  object-fit: cover;
+  object-position: top center;
+}
+
 .card-main {
   display: grid;
   gap: 7px;
@@ -375,6 +389,12 @@ a.story-card:hover {
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.5;
+}
+
+.story-card .publication-note {
+  color: var(--faint);
+  font-size: 0.78rem;
+  line-height: 1.45;
 }
 
 .venue,
@@ -513,6 +533,12 @@ a.story-card:hover {
   .card-thumb {
     height: auto;
     max-height: 230px;
+  }
+
+  .paper-page-thumb {
+    height: 230px;
+    object-fit: cover;
+    object-position: top center;
   }
 
   .publication-stats {
